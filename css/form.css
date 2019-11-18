@@ -1,0 +1,12 @@
+.container
+{
+    background-color: blueviolet;
+    width: 19%;
+    height: 20%;
+}
+#section
+{
+    background-color:darkgoldenrod;
+    height: 100%;
+    width: 50%;
+}

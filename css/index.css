@@ -1,0 +1,88 @@
+.Container
+{
+    text-align: center;
+    width: 25%;
+    height: 500px;
+    background-color: #ededed;
+    border-radius: 15px;
+    margin:  0 auto;
+    margin-top: 10%;
+    padding: 2%;
+}
+#Image
+{
+    background-color: darkkhaki;
+}
+.login
+{
+    text-align: center;
+    width: 25%;
+    height: 500px;
+    background-color: #ededed;
+    border-radius: 15px;
+    margin:  0 auto;
+    margin-top: 10%;
+    padding: 2%;
+}
+.pagination
+{
+    display: inline-block;
+    list-style-type: none;
+}
+.pagination li{
+    list-style-type: none;
+    display: inline-block;
+}
+.gallery
+{
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    background-color: #501368;
+    border-radius: 15px;
+    margin:  0 auto;
+    padding: 2%;
+}
+.login form
+{
+    text-align: center;
+    margin:  0 auto;
+    margin-top: 20%;
+}
+body
+{
+    background-image: url(http://mobikcccom39com1.ru.400.com1.ru/images/sait/oboi/supersbornik_360x480_06/005priroda/042.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.error
+{
+    color: red;
+}
+footer
+{
+    width: 100%;
+    background-color: rgba(180, 169, 155, 0.856);
+    padding: 10px 0px;
+}
+header
+{
+    width: 100%;
+    background-color: rgba(180, 169, 155, 0.856);
+    padding: 10px 0px;
+}
+.inner
+{
+    display: block;
+    background-color: darkslategray;
+    margin: 0% auto;
+    width: 50%;
+}
+.inner h1
+{
+    color: white;
+}
+.success
+{
+    color:darkcyan;
+}
