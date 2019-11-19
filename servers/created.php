@@ -20,7 +20,9 @@
         {
             $passwordHash = hash("md5", $pass2, FALSE);
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-            $sql = "UPDATE users SET Pass2 = ? WHERE email='$email'";
+			$sql = "UPDATE users SET Pass2 = ? WHERE email='$email'";
+
+			$result = $conn->prepare($sql);
 
             $result->bindParam(1, $passwordHash);
 
