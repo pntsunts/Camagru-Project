@@ -1,2 +1,2 @@
 # NEWCAMA
-aewe
+Camagru is a web application
